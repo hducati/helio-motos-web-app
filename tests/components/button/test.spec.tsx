@@ -1,7 +1,7 @@
 import { screen } from '@testing-library/react'
 import { AddShoppingCart } from '@styled-icons/material-outlined/AddShoppingCart'
 
-import { Button } from '#/components/button/button'
+import Button from '#/components/button/button'
 import { renderWithTheme } from '!tests/helpers/render-with-theme'
 import {
   mediumSizeAssert,
