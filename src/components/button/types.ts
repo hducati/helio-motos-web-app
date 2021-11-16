@@ -10,3 +10,7 @@ export type ButtonProps = {
   icon?: React.ReactNode
   as?: React.ElementType
 } & ButtonTypes
+
+export type WrapperProps = {
+  hasIcon: boolean
+} & Pick<ButtonProps, 'size' | 'fullWidth'>
