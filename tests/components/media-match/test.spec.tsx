@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react'
 
-import MediaMatch from '#/components/media-match/media-match'
+import { MediaMatch } from '#/components/media-match/media-match'
 
 describe('<MediaMatch />', () => {
   let desktopHeading: Element
