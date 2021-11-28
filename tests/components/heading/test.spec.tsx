@@ -19,16 +19,16 @@ describe('<Heading />', () => {
     expect(heading).toHaveStyle(smallSizeAssert)
   })
 
-  it('should render a white heading by default', () => {
-    renderWithTheme(<Heading>Fake heading</Heading>)
+  it('should render a white heading', () => {
+    renderWithTheme(<Heading color="white">Fake heading</Heading>)
 
     const heading = screen.getByRole('heading', { name: /fake heading/i })
 
     expect(heading).toHaveStyle(whiteColorAssert)
   })
 
-  it('should render a black heading', () => {
-    renderWithTheme(<Heading color="black">Fake heading</Heading>)
+  it('should render a black heading by default', () => {
+    renderWithTheme(<Heading>Fake heading</Heading>)
 
     const heading = screen.getByRole('heading', { name: /fake heading/i })
 

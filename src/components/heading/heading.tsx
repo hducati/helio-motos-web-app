@@ -4,7 +4,7 @@ import { HeadingProps } from '#/components/heading/types'
 export const Heading = ({
   children,
   lineColor = 'red',
-  color = 'white',
+  color = 'black',
   size = 'medium',
   lineBottom = false,
   lineLeft = false
